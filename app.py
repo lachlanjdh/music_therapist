@@ -10,10 +10,10 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 # Load NLP model and tokenizer
-model = tf.keras.models.load_model('model/your_model.h5')
-with open('model/tokenizer.pkl', 'rb') as handle:
+model = tf.keras.models.load_model('your_model.h5')
+with open('tokenizer.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
-with open('model/label_encoder.pkl', 'rb') as handle:
+with open('label_encoder.pkl', 'rb') as handle:
     label_encoder = pickle.load(handle)
 
 # Initialize YouTube API credentials
