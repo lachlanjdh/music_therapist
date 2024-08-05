@@ -40,6 +40,16 @@ def suggest_playlist(text):
         'relaxed': 'relaxing chill songs playlist',
         'nervous': 'calming relaxing songs playlist',
         'worried': 'calming study songs playlist',
+        'disgust': 'dark songs playlist',
+        'amusement': 'entertaining fun songs playlist',
+        'admiration': 'inspirational songs playlist',
+        'pride': 'motivational songs playlist',
+        'shame': 'emotional songs playlist',
+        'euphoria': 'euphoria party songs playlist',
+        'boredom': 'playlist for chill vibes',
+        'nostalgia': 'nostalgic old songs playlist',
+        'thrill': 'thrilling music playlist',
+        'blessed': 'blessed songs playlist',
     }
     
     # Get search query based on emotion
