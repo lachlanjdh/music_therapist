@@ -10,7 +10,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 
 # Load NLP model and tokenizer
-model = tf.keras.models.load_model('your_model.h5')
+model = tf.keras.models.load_model('music_therapist_model.h5')
 with open('tokenizer.pkl', 'rb') as handle:
     tokenizer = pickle.load(handle)
 with open('label_encoder.pkl', 'rb') as handle:
